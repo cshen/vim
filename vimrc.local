@@ -198,8 +198,6 @@ au! BufNewFile,BufRead *.sh setlocal ft=bash
 " autocmd BufWritePre *.fish :normal gg=G
 " autocmd BufWritePre *.sh :normal gg=G
 
-noremap == =Gj
-
 
 " Terminal colorscheme
 if ! has("gui_running")
